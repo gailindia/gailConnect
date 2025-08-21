@@ -1,0 +1,151 @@
+name: gail_connect
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 2.0.47+20232
+# on google play : 2.0.15+20026 version: 2.0.19+20039// 2.0.27+20208
+# build updated on 18 oct 12:45; Also change in /android/local.properties
+
+environment:
+  #  sdk: ">=2.14.0 <3.0.0"
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependency_overrides:
+  sqflite:
+    git:
+      url: https://www.github.com/davidmartos96/sqflite_sqlcipher.git
+      path: sqflite
+      ref: fmdb_override
+    
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  get: any
+  uuid: any
+  sqflite_sqlcipher: ^2.2.1
+  location: ^8.0.0
+  collection: ^1.17.2
+  photo_view: any
+  animations: ^2.0.8
+  file_picker: ^8.1.4
+  get_storage: any
+  #  flutter_sms: ^2.3.3 no use  1.0.4
+
+  grouped_list: any
+  image_picker: 
+  flutter_image_compress: ^2.4.0
+  multiutillib: ^1.3.0
+  # firebase_core: ^3.7.0
+  # firebase_auth: ^5.3.2
+  #  firebase_messaging: ^15.1.4 no use
+  # firebase_storage: ^12.3.4
+  # firebase_crashlytics: ^4.1.4
+  cloud_firestore: ^5.4.5
+  webview_flutter: ^4.4.0
+  flutter_inappwebview: ^6.1.5
+  webview_flutter_android: ^3.12.0
+  webview_flutter_wkwebview: ^3.9.2
+  dropdown_search: ^5.0.6
+  carousel_slider: ^5.0.0
+  #  wc_flutter_share: any no use
+  share_plus: ^7.2.2
+  contacts_service: any
+  onesignal_flutter: ^5.0.3
+  # shared_preferences: 
+
+  permission_handler: ^11.4.0
+  vertical_card_pager: any
+  flutter_vector_icons: any
+
+  cached_network_image: ^3.3.0
+  flutter_cache_manager: ^3.3.1
+  syncfusion_flutter_charts: ^28.2.7
+  flutter_staggered_grid_view: any
+  #  external_app_launcher: ^4.0.1 no use
+  flutter_cached_pdfview: ^0.4.2
+  bottom_navy_bar: ^6.1.0
+  flutter_linkify: ^6.0.0
+  validators: ^3.0.0
+#  images_picker: ^1.1.2
+  awesome_dialog: ^3.1.0
+  responsive_sizer: ^3.3.1
+  text_scroll: ^0.1.0
+  # url_launcher: ^6.1.6
+  flutter_intro: ^3.0.3
+  help_me: ^0.0.8
+  # shared_preferences:  
+  confetti: ^0.7.0
+  flutter_animate: ^4.2.0
+  font_awesome_flutter: ^10.3.0
+  google_fonts: ^6.1.0
+  image: ^4.1.3
+  expandable: ^5.0.1
+  device_info_plus: ^9.0.3
+  motion_toast: ^2.6.6
+  custom_radio_grouped_button: ^2.2.1
+  intl: ^0.18.1
+  #  fwfh_webview: 0.9.0+2
+  #  flutter_widget_from_html_core: ^0.10.6
+  html_unescape: ^2.0.0
+  html_character_entities: ^1.0.0+1
+  pedometer: ^4.0.1
+  percent_indicator: ^4.2.3
+  flutter_charts: ^0.5.2
+  syncfusion_flutter_calendar: ^28.2.7
+  weekday_selector: ^1.1.0
+  syncfusion_flutter_gauges: ^28.2.7
+  syncfusion_flutter_core: ^28.2.7
+  #  workmanager: ^0.5.2
+  dio: ^5.4.0
+  flutter_date_range_picker: ^0.0.14
+
+  path_provider: ^2.1.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+
+  flutter_background_service: ^5.0.5
+  flutter_background_service_ios: ^5.0.0
+  flutter_background_service_android: ^6.2.2
+  flutter_local_notifications: ^18.0.1
+
+  health: ^11.1.1
+  flutter_svg: ^2.0.5
+
+  secure_shared_preferences: ^0.0.4
+  map_launcher: ^3.2.0
+#  ssl_pinning_plugin: ^2.0.0 no use
+
+#instabug_flutter:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  hive_generator: ^1.1.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/
+    - assets/file/
+
+#flutter_native_splash:
+#  color: "#FFFFFF"
+#  image: "assets/icons/gail_logo.png"
+#  ios_content_mode: center
+#  android_gravity: center
+#  android: true
+#  android12: true
+#  ios: true
+#  web: false

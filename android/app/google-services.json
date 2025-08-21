@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "337354836230",
+    "project_id": "gail-coneect-v2",
+    "storage_bucket": "gail-coneect-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337354836230:android:033aba584f37e1c6a3f687",
+        "android_client_info": {
+          "package_name": "com.gail.gailconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJAG5WIaT9j_6lt7nMqDqMKhtJ3N1prmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
