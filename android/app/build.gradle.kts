@@ -40,7 +40,7 @@
 
         signingConfigs {
             create("release") {
-                storeFile = file("/Users/gailmacbook/StudioProjects/gailconnect/android/app/my-release-key.keystore")
+                storeFile = file("/Users/gailmobdev/Documents/Projects/LiveProjects/gailconnect/android/app/my-release-key.keystore")
                 storePassword = "gail@123"
                 keyAlias = "alias_name"
                 keyPassword = "gail@123"
@@ -67,8 +67,17 @@
             implementation ("com.google.firebase:firebase-analytics:21.0.0")
             implementation ("com.google.firebase:firebase-dynamic-links:20.0.0")
             coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
+ 
         }
-    }
+ 
+         // Exclude android-database-sqlcipher to avoid duplicate native libraries
+            configurations {
+                all {
+                    exclude (group = "net.zetetic", module = "android-database-sqlcipher")
+                }
+            }
+                }
+ 
 
     flutter {
         source = "../.."
